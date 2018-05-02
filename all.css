@@ -1,0 +1,159 @@
+header {
+    /*makes the header a different shade of pink to the body*/
+    background-color: #f8bbd0;
+    /*centres the logo in the header*/
+    text-align: center;
+    /*makes the header the same height as the logo getting rid of gaps between the logo and navigation bar*/
+    height: 178px;
+}
+
+
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer {
+    height: 155px;
+}
+/*footer{
+ position:absolute;
+ bottom: 0;
+ 
+}*/
+
+/************
+
+Nagivation Bar CSS
+
+**************/
+
+body {
+    /*Means the navigation bar goes to the edge of the page rather than leaving a gap*/
+    margin: 0;
+    /*turns the background colour a light pink*/
+    background-color: #fce4ec;
+}
+
+ul.topnav {
+    /*As the navigation is done through a list this deletes the type of list for example the bullet points*/
+    list-style-type: none;
+    /*ensures the navigation bar is at the top of the body*/
+    margin: 0;
+    /*Means there is not a gap between the first option on the navigation bar*/
+    padding: 0;
+    /*The bar continues along the whole page*/
+    overflow: hidden;
+    /*Fills the bar dark blue*/
+    background-color: #1565c0;
+}
+
+ul.topnav li {
+    /*The list starts from the left and next to rather than underneath in the middle of the page*/
+    float: left;
+}
+
+ul.topnav li a {
+    /*Changes the colour of the test to very light blue*/
+    color: #eeffff;
+    /*text-align: center;*/
+    /*Makes the bar larger than the text*/
+    padding: 14px 16px;
+    display: block;
+    /*Stops the links from being underlined*/
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+    /*When the user hovers over the option it turns the colour from dark blue to a lighter blue*/
+    background-color: #5e92f3;
+}
+
+ul.topnav li a.active {
+    /*background-color: skyblue;*/
+}
+
+ul.topnav li.right {
+    /*float: center;*/
+}
+
+@media screen and (max-width: 600px){
+    /*ul.topnav li.left,*/
+    ul.topnav li {
+        /*list the options one under the other so they are easier to been seen on a smaller screen*/
+        float: none;
+        /*puts the text into the centre of the navigation bar rather than the right hand side*/
+        text-align:center;
+        }
+}
+
+
+/**************
+
+Typography
+
+***************/
+
+/*Changes the font to sans-serif*/
+html {
+    font-family: sans-serif;
+}
+
+/*gets the fonts I selected from google fonts*/
+@font-face{
+    font-family: 'Cabin Sketch', cursive;
+    font-family: 'Magra', sans-serif;
+}
+
+/*changes the font in the think of a number game*/
+label, legend{
+    font-family: 'Magra', sans-serif;
+}
+
+/*changes the font of the games title*/
+h1{
+    font-family: 'Titan One', cursive;
+}
+
+h2{
+    font-family: 'Cabin Sketch', cursive;
+}
+
+
+/***********
+
+Button CSS
+
+************/
+
+input[type=submit], input[type=button], button {
+    /*changes the colour of the button to a deeper pink than the background colour*/
+    background-color: #c48b9f;  
+    /*changes the colour of the text to a very light pink*/
+    color: #ffeeff;
+    /*make the button a bit bigger than the text*/
+    padding: 14px 20px;
+    /*stops the button from having a border*/
+    border: none;
+    /*gives the button curved edges*/
+    border-radius: 4px;
+    /*turns the cursor into a grab hand rather than the usual mouse so the user knows they can click*/
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    /*when the user hovers over the button it changes colour*/
+    background-color: #f8bbd0;
+}
+
+
+
+
+
