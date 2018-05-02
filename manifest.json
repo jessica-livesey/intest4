@@ -1,7 +1,7 @@
 {
     "name": "Jessica's CV",
     "short_name": "CV",
-    "description": "Jessica's CV",
+    "description": "Jessica's Online CV",
     "lang":"en",
     "orientation": "portrait-primary",
     "start_url": ".",
@@ -16,7 +16,6 @@
             "sizes": "512x512",
             "type": "image/png"
         }
-
     ],
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
