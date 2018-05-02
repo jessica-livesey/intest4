@@ -4,7 +4,6 @@
     "description": "Jessica's CV",
     "lang":"en",
     "orientation": "portrait-primary",
-    "start_url": "index.html",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
